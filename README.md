@@ -78,7 +78,7 @@ HTTPレスポンス処理の実装となります。
          |:--|
          
       9. *DELETE* \
-         指定IDのHunter情報を削除し、成功メッセージをJSON形式でレスポンスします。
+         指定IDのHunter情報を削除し、成功メッセージをJSON形式でレスポンスします。 \
          ■URL：http://localhost:8080/hunters/1 \
          ■cURLコマンド \
          curl --location --request DELETE 'http://localhost:8080/hunters/3' \
