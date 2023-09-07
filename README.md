@@ -25,7 +25,7 @@ HTTPレスポンス処理の実装となります。
          ■URL：http://localhost:8080/hunters \
          ■cURLコマンド \
          curl --location 'http://localhost:8080/hunters' \
-         ■レスポンス \
+         ■レスポンス
          | ![GET](https://github.com/Kito-Java2307/Java-7thTheme/assets/141001192/dfc935bf-ee66-4dd5-8d41-14a4bd0f3bb4)|
          |:--|
       3. *GET（パス変数追加）* \
@@ -33,7 +33,7 @@ HTTPレスポンス処理の実装となります。
          ■URL：http://localhost:8080/hunters/1 \
          ■cURLコマンド \
          curl --location 'http://localhost:8080/hunters/1' \
-         ■レスポンス \
+         ■レスポンス
          | ![GETpath](https://github.com/Kito-Java2307/Java-7thTheme/assets/141001192/b41be989-2e4b-4d4d-86a9-66285d38f134)|
          |:--|
       5. *POST* \
@@ -47,14 +47,17 @@ HTTPレスポンス処理の実装となります。
          "sex": "M",
          "age": "18"
          }' \
-         ■レスポンス \
+         ■レスポンス
          | ![POST01](https://github.com/Kito-Java2307/Java-7thTheme/assets/141001192/c96fad12-8e62-4759-83ea-ef1daea19c83)|
          |:--|
+         
          | ![POST02](https://github.com/Kito-Java2307/Java-7thTheme/assets/141001192/2f31c231-d5fa-4763-9c0b-17269056f17e)|
          |:--|
-         ＜反映の確認＞ \
+         
+         ＜反映の確認＞
          |![POST03](https://github.com/Kito-Java2307/Java-7thTheme/assets/141001192/c7d5b91d-f8d0-491c-8468-59cc8e4278df)|
          |:--|
+         
       7. *PATCH* \
          指定IDのHunter情報を更新し、成功メッセージをJSON形式でレスポンスします。 \
          ■URL：http://localhost:8080/hunters/3 \
@@ -66,12 +69,14 @@ HTTPレスポンス処理の実装となります。
           "sex": "M",
           "age": "20"
          }' \
-         ■レスポンス \
+         ■レスポンス
          | ![PATCH01](https://github.com/Kito-Java2307/Java-7thTheme/assets/141001192/fea94c16-a037-4f6e-a226-8c65b2bead49)|
          |:--|
-         ＜反映の確認＞ \
+         
+         ＜反映の確認＞
          | ![PATCH02](https://github.com/Kito-Java2307/Java-7thTheme/assets/141001192/9089443f-45f8-47a0-bbc1-04d36b399be7)|
          |:--|
+         
       9. *DELETE* \
          指定IDのHunter情報を削除し、成功メッセージをJSON形式でレスポンスします。
          ■URL：http://localhost:8080/hunters/1 \
@@ -79,11 +84,9 @@ HTTPレスポンス処理の実装となります。
          curl --location --request DELETE 'http://localhost:8080/hunters/3' \
          ■レスポンス \
          | ![DELETE01](https://github.com/Kito-Java2307/Java-7thTheme/assets/141001192/88a0c6dc-77fc-4dfe-95c6-27fdffb93d28)|
-         ＜反映の確認＞ \
+         |:--|
+         
+         ＜反映の確認＞
          | ![DELETE02](https://github.com/Kito-Java2307/Java-7thTheme/assets/141001192/fcbc8021-ad36-48cd-8bf8-68e16ae881ef)|
          |:--|
-
-
          
-         
- 
